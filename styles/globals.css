@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-textDefault tracking-wide leading-7 text-sm
+    scroll-bar;
+  }
+}
+@layer components {
+  .scroll-bar {
+    @apply scrollbar-thin scrollbar-thumb-gray-400/80 scrollbar-track-bgMild/40;
+  }
+  .hover-ease {
+    @apply transition-all ease-in-out duration-[400ms] cursor-pointer;
+  }
+  .hover-quick {
+    @apply transition-all ease-in-out duration-[200ms] cursor-pointer;
+  }
+  .item {
+    @apply flex rounded hover:bg-bgMild/30 hover-quick;
+  }
+  .default-button {
+    @apply flex gap-2 items-center  px-[0.7rem] py-1 tracking-widest bg-primary bg-opacity-10 hover:bg-white hover:bg-opacity-100 hover:text-primary font-semibold hover-ease  border-opacity-70 hover:shadow-primary/10 hover:shadow-sm justify-center;
+  }
+}

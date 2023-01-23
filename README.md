@@ -1,2 +1,1 @@
-#fileDiff
-web app that exposes the differences between two docx files.
+Make sure to add : RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED=false to a .env file in the root directory.

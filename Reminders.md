@@ -1,0 +1,9 @@
+- I will fix the gitlab account conflict and push latest iteration soon.
+- I will share the deployed-frontend link soon.
+- Toggle Could be a custom hook to avoid reptition
+- Revision buttons can be disabled when everything is revised
+- persist / manage on page refresh (manage first render)
+- restyle buttons with no opacity so I can make a sticky top-0 navbar
+- refining styling would make the app 50% more modern and user friendly. But it's a very low priority ( will leave it for last ).
+- scroll to paragraph on Navigation
+- File names after upload
